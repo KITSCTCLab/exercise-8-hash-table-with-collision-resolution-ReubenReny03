@@ -5,7 +5,7 @@ def display_hash(hashtable) -> None:
 		print(f"{element_no} --> ",end="")
 		values = hashtable[element_no]
 		for value in values:
-			print(f"{values} --> ",end="")
+			print(f"{value} --> ",end="")
 		print()
 		
 
