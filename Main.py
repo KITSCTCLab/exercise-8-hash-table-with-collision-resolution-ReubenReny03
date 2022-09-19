@@ -3,7 +3,7 @@ import re
 def display_hash(hashtable) -> None:
 	for element_no in range(len(hashtable)):
 		print(f"{element_no} --> ",end="")
-		for values in element_no:
+		for values in hashtable[element_no]:
 			print(f"{values} --> ",end="")
 		print()
 		
